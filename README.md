@@ -3,7 +3,7 @@
 
 Код программы:
 
-'''import requests
+import requests
 import telebot
 from bs4 import BeautifulSoup as b
 
@@ -61,7 +61,7 @@ def jokes(message):
 
     else:
         bot.send_message(message.chat.id, 'Введите любую цифру:')
-bot.polling()'''
+bot.polling()
 
 
 
